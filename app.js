@@ -1,5 +1,9 @@
-const logger = require("./logger");
+const amount = 10;
 
-// console.log(logger);
+if (amount > 10) {
+  console.log("big number");
+} else {
+  console.log("small number");
+}
 
-logger.log("noelboban");
+console.log("hello world");
