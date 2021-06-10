@@ -1,9 +1,8 @@
-const amount = 10;
+// const names = require("./4-names");
+const { john, peter } = require("./4-names"); // destructuring an array
+// console.log(names);
+const sayHi = require("./5-utlils");
 
-if (amount > 10) {
-  console.log("big number");
-} else {
-  console.log("small number");
-}
-
-console.log("hello world");
+sayHi("susan");
+sayHi(john); // sayHi(names.john)
+sayHi(peter); // sayHi(names.peter)
